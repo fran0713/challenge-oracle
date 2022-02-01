@@ -1,0 +1,115 @@
+*{
+    background: rgb(158, 30, 184);
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+h1{
+    padding: 0.7em;
+    text-align: center;
+    color: white;
+}
+input{
+    font-size: medium;
+    margin: 0em 0.1em;
+    padding: 0.5em;
+    border-radius: 0.8em;
+    background: white;
+    
+}
+main{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    all: initial;
+    font: inherit;
+    cursor: pointer;
+    user-select: none;
+    
+color: white;
+    background: rgba(207, 11, 11, 0.712);
+    border-radius: 10px;
+    padding: 0.3em 0.3em;
+    margin: 0.2em 0.2em;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+.box{
+    
+    padding: 0.5em;
+    background: white;
+    width: 300px;
+    height: 90px;
+    margin: 0px 10px;
+    border-radius: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.botones{
+    display: flex;
+    background: white;
+    border-radius: 0.8em;
+}
+#logo{
+    border-radius: 100%;
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background: rgba(40, 18, 165, 0.815);
+    padding: 0.3em;
+}
+h3{
+    margin: 10px;
+    padding: 2px;
+    background-color: inherit;
+    display: inline-block;
+}
+
+.lista{
+    
+    display:table;
+    margin:15px auto 0 auto;
+    list-style-type:none; 
+    display: inline-block;
+}
+.lista li {
+    background: rgba(40, 18, 165, 0.815);
+    padding-left:0.5em; 
+    padding-top:0.5em;
+    float:left;
+}
+.lista li a {
+    background: rgba(40, 18, 165, 0.815);
+    color:#D6D6D6; 
+    border:0.08em solid #D6D6D6;
+    padding:0.8em 0.7em 0.6em 0.7em;
+    border-radius:50%; 
+}
+.lista li i {
+    background: rgba(40, 18, 165, 0.815);
+    width:20px;
+    height:20px;
+    text-align:center;
+}
+.icon {
+    font-size: 20px;
+}
+
